@@ -1,0 +1,13 @@
+.scroll-container {
+  position: relative;
+  animation: scroll 40s linear infinite; /* Adjusted time for smoother scrolling */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* Scroll through all logos without abrupt stop */
+  }
+}
