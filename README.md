@@ -1,46 +1,154 @@
-# Getting Started with Create React App
+# 🌐 Application Web de Gestion d’Entreprise
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🎯 **Thème du projet :**  
+**Conception et développement d’une application web de gestion d’entreprise.**
 
-## Available Scripts
+## 📖 Objectif général
 
-In the project directory, you can run:
+L’objectif principal de ce projet est la **création d’une application web moderne et interactive** pour améliorer la **gestion interne des services, projets et candidatures** de l’entreprise DigiUP.
 
-### `npm start`
+Cette solution numérique permet de :
+- Centraliser les informations sur les **projets** et **offres d’emploi**.  
+- Faciliter la **communication entre les candidats et l’entreprise** via un formulaire de contact intelligent.  
+- Automatiser la **réception et le traitement des candidatures**.  
+- Moderniser la **présence en ligne** de DigiUP avec une interface fluide, responsive et ergonomique.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Le projet a donc consisté à **développer une application web centralisée** permettant de **simplifier et automatiser** ces processus internes.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎯 Objectifs du projet
 
-### `npm run build`
+### Objectifs principaux :
+- Centraliser les informations liées aux **projets** et **candidatures**.  
+- Optimiser les processus internes grâce à l’**automatisation**.  
+- Faciliter la **communication** entre les équipes et les candidats.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Objectifs secondaires :
+- Garantir la **sécurité et la confidentialité** des données.  
+- Créer une interface **ergonomique, responsive et intuitive**.  
+- Prévoir la **scalabilité** pour ajouter de futures fonctionnalités.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧰 Technologies utilisées
 
-### `npm run eject`
+| Catégorie | Technologies / Outils |
+|------------|----------------------|
+| **Langages** | HTML5, CSS3, JavaScript, TypeScript |
+| **Framework / Bibliothèque** | React.js |
+| **IDE** | Visual Studio Code |
+| **Outil de modélisation UML** | StarUML |
+| **Gestion du code** | Git & GitHub |
+| **Intégration externe** | API Zoho Mail (pour les formulaires de contact et candidature) |
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Fonctionnalités principales
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 🏠 Page d’accueil
+- Interface dynamique avec slogan et visuel numérique (“Think Outside The Box”).
+- Navigation fluide et responsive.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 🧩 Gestion des services
+- Liste complète des services proposés : **Conseil, Digital Factory, Cybersécurité**, etc.
+- Fiches détaillées avec description et image illustrée.
 
-## Learn More
+### 📁 Gestion des projets
+- Présentation des projets sous forme de cartes avec détails.  
+- Consultation approfondie de chaque projet (contexte, objectifs, résultats).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 📞 Formulaire de contact
+- Formulaire simple et sécurisé pour envoyer un message.  
+- Envoi automatique des informations via **Zoho Mail API**.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 💼 Offres d’emploi
+- Liste des postes disponibles avec descriptif complet.  
+- Formulaire intégré pour **postuler directement en ligne**.
+
+### 📨 Boîte de réception
+- Réception automatique des **messages et candidatures** dans la boîte mail RH.  
+- Visualisation directe des informations et CV envoyés.
+
+### 🗄️ Base de données
+- Stockage structuré et sécurisé des candidatures reçues (nom, email, ville, CV, offre ciblée).  
+- Gestion centralisée via l’interface administrateur.
+
+---
+
+## 🧠 Modélisation UML
+
+L’analyse et la conception du projet ont été réalisées en UML à l’aide de **StarUML** :
+
+- **Diagramme de cas d’utilisation** : interactions entre utilisateur, candidat et administrateur.  
+- **Diagramme de classes** : relations entre les entités principales (`Utilisateur`, `Service`, `Projet`, `Candidature`).  
+- **Diagrammes de séquence** :  
+  - Soumission de candidature  
+  - Envoi d’un message via le formulaire de contact  
+
+---
+
+## 💻 Interfaces principales
+
+| Interface | Description |
+|------------|-------------|
+| **Accueil** | Présentation du slogan et du positionnement digital de DigiUP |
+| **Services** | Liste et détail des services proposés |
+| **Projets** | Liste des projets et leurs détails |
+| **Contact** | Formulaire de contact automatisé |
+| **Offres d’emploi** | Liste et détails des offres |
+| **Soumission de candidature** | Formulaire complet + téléchargement du CV |
+| **Boîte de réception (Zoho Mail)** | Réception des messages et CV soumis |
+| **Base de données (Admin)** | Enregistrement structuré des candidatures |
+
+---
+
+
+## 🚀 Installation et exécution
+
+### 1️⃣ Cloner le projet
+git clone https://github.com/<ton_nom_utilisateur>/Application-Web-de-Gestion-d-Entreprise.git
+cd DigiUP-WebApp
+
+2️⃣ Installer les dépendances
+npm install
+
+3️⃣ Lancer le serveur de développement
+npm start
+Le site sera accessible sur :
+👉 http://localhost:3000
+
+🔐 Sécurité et performances
+Données des formulaires cryptées avant envoi.
+
+Validation côté client + côté serveur.
+
+Application responsive et compatible avec tous les navigateurs modernes.
+
+Tests fonctionnels effectués pour chaque composant principal.
+
+🚀 Améliorations futures
+🔮 Intégration d’un système d’authentification administrateur.
+
+📊 Ajout d’un tableau de bord analytique pour le suivi des projets.
+
+☁️ Hébergement sur une plateforme cloud (Render / Vercel).
+
+🤖 Automatisation intelligente des notifications par IA.
+
+🏁 Conclusion
+Ce projet m’a permis de :
+
+Mettre en pratique mes compétences en développement web moderne (React, TypeScript).
+
+Approfondir mes connaissances en modélisation UML et gestion de projet Agile.
+
+Contribuer activement à la transformation digitale de DigiUP.
+
+Cette expérience a été extrêmement enrichissante sur les plans technique, humain et professionnel, et a marqué une étape importante dans mon parcours d’ingénierie.
+
+📜 Licence
+Ce projet est distribué sous la licence MIT — libre de l’utiliser, le modifier et le redistribuer avec attribution.
